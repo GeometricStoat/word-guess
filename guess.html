@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Guess</title>
+        <meta charset="utf-8"></meta>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form onsubmit="getSubmit(); return false;">
+            Word: <input type="text" id="word" size="20">
+            <input type="submit" value="Submit">
+        </form>
+        <p id="words"></p>
+        <script src="guess.js"></script>
+    </body>
+</html>
